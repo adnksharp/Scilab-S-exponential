@@ -7,6 +7,7 @@ Uso de iteraciones para obtener el valor de una función exponencial
 donde:
 
 x = variable
+
 i = iteración desde 0 hasta infinito
 
 ```
