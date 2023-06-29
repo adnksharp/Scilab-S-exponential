@@ -1,17 +1,18 @@
-# Expansiones en series 
+# Expantions in series 
 
-Uso de iteraciones para obtener el valor de una función exponencial
+Uso de iteraciones para obtener el valor de una función exponencial usando la formula 
 
-``` e^x = 1 + x^i / i! ```
+$e^x = \sum _{i = 1} ^{\infty}{x^i \over i!}$
 
-donde:
+Dado que la función real tiende al infinito se usa como referencia la funcion logaritmica para establecer un error de tolerancia
 
-x = variable
+### Ejemplo de uso
 
-i = iteración desde 0 hasta infinito
+```Octave
+exec ('exponential.sci', -1)
 
-```
-Exponencial de: 3.14 
- 
-        e^3.140000      =       23.103736
+--> expo(%pi)
+ ans  =
+
+   23.140561
 ```
